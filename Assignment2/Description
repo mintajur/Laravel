@@ -1,0 +1,23 @@
+There will be two types of users:
+Admin
+Customer
+When the main script runs, the user will see two options:
+Login
+Register
+Only ‘Customers’ can ‘Register’ using their ‘name’, ‘email’, and ‘password’.
+
+There should be a separate PHP script to create ‘Admin’ users because regular users shouldn’t be allowed to register as ‘Admin’.
+
+Based on the given ‘email’ and ‘password’ in the Login option:
+The user will see the next menu options if the email and password matched
+or see a message that the login has failed.
+Menu options for the Admin:
+See all the transactions by all the users
+See transactions by a specific user (searching by their email)
+See the list of all the customers
+Menu options for the customer:
+See all of their transactions
+Deposit money to their account
+Withdraw money from their account
+Transfer money to another customer account (given their email address)
+See the current balance of the account
